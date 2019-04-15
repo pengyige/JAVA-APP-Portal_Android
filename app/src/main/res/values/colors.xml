@@ -1,9 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#e85052</color>
+    <color name="colorPrimaryDark">#e85052</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLightGray">#FF4081</color>
+    <color name="colorRankFont">#FA3232</color>
 
+    <color name="black_20">#33000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_5">#0d000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_60">#99000000</color>
+    <color name="black_70">#b3000000</color>
+    <color name="black_80">#cc000000</color>
+    <color name="black_90">#e6000000</color>
+
+
+    <color name="tab_selected">#F05B49</color>
+    <color name="tab_normal">#9A9A9A</color>
+
+
+    <color name="half_transprant">#88D4D4D4</color>
+
+    <!--  <color name="bottle_transrant">100</color>-->
+    <color name="material_dialog_btn">#FF4081</color>
+
+    <color name="action_bar_bg">#e85052</color>
+    <color name="button_bg">#e85052</color>
+
+
+    <!--base color-->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#cecdcd</color>
+    <color name="blue">#3578ed</color>
+    <color name="orange_red">#d5932f</color>
+    <color name="orange">#ec5606</color>
+    <color name="red">#ff0000</color>
+    <color name="pink">#F6616d</color>
+    <color name="green">#1aff00</color>
+    <color name="light_green">#98d671</color>
+
+    <!-- 漂流瓶bar颜色 -->
+    <color name="bar_bottom_bg">#8fdffd</color>
+    <!-- 标题背景颜色 -->
+    <color name="act_title_bg">#49b3cd</color>
     <!-- 背景颜色 -->
     <color name="base_bg">#f8f8f8</color>
+    <color name="text_color_whitebg">#696969</color>
+    <!-- 边线颜色 -->
+    <color name="line_color">#D6D6D6</color>
+    <!--透明-->
+    <color name="transparent">#00000000</color>
+    <!--半透明-->
+    <color name="translucent">#e0000000</color>
+    <!--font color-->
+    <color name="color_deep">#333333</color>
+    <color name="color_shallow">#666666</color>
+    <!--separator line-->
+    <color name="separator_line">#C1c1c1</color>
+
+    <color name="menu_tab_background" >#ffffff</color>
+    <color name="menu_tab_textColor">#555555</color>
+    <color name="style_color">#005fff</color>
+
+    <!--个人空间性别年龄底色-->
+    <color name="color_sex_age">#71c2f7</color>
+    <!--性别女底色-->
+    <color name="color_sex_girl">#ff22ab</color>
+    <!--个人空间星座底色-->
+    <color name="color_sign">#bd90f7</color>
+
+    <color name="color_tag_one">#00CD00</color>
+    <color name="color_tag_two">#EEB422</color>
+    <color name="color_tag_three">#8EE5EE</color>
+    <color name="color_meili_text">#800080</color>
+
+    <color name="shanbei_count">#888888</color>
+    <color name="main_tab_selected">#828282</color>
+
+    <!-- 开屏背景颜色-->
+    <color name="start_bg">#f93742</color>
+
+    <!-- 发现背景 -->
+    <color name="found_bg">#f8f8f8</color>
 </resources>
