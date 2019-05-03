@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/base_bg"
+    android:orientation="vertical"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tool_bar_height"
+        android:background="@color/tool_bar_bg"
+        >
+        <ImageView
+            android:id="@+id/fill_code_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+
+            android:background="@drawable/view_selector"
+            android:src="@mipmap/arrow_back"
+            />
+
+        <TextView
+            android:id="@+id/action_bar_title"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:text="填写验证码"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20px"
+        android:paddingRight="20px"
+        android:paddingTop="80px"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请输入收到的短信验证码"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/fill_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:inputType="number"
+            android:hint="请输入四位验证码"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        >
+        <Button
+            android:id="@+id/fill_code_next"
+            android:layout_width="250px"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@drawable/btn_login_bg"
+            android:text="下一步"
+
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

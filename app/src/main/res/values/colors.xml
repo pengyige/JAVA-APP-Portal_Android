@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#e85052</color>
+    <color name="colorPrimary">#000000</color>
     <color name="colorPrimaryDark">#e85052</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorLightGray">#FF4081</color>
@@ -84,4 +84,7 @@
 
     <!-- 发现背景 -->
     <color name="found_bg">#f8f8f8</color>
+
+    <!-- 导航条背景 -->
+    <color name="tool_bar_bg">#000000</color>
 </resources>

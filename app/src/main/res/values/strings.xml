@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">portal</string>
+    <string name="app_name">传送门</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_protocol">ProtocolActivity</string>
+    <string name="title_activity_fill_code">FillCodeActivity</string>
+    <string name="title_activity_fill_person_info">FillPersonInfoActivity</string>
 </resources>

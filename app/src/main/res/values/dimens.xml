@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- 导航条高度 -->
+    <dimen name="tool_bar_height">40dp</dimen>
+    <dimen name="tool_bar_left">15dp</dimen>
+    <dimen name="dimen6">6dp</dimen>
+    <dimen name="dimen10">10dp</dimen>
+
+</resources>

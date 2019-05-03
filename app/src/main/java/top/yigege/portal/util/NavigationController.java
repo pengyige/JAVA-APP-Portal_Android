@@ -10,6 +10,8 @@ import android.util.Log;
 import java.util.ArrayList;
 import java.util.Map;
 
+import top.yigege.portal.R;
+
 /**
  * author: yigege
  * created on: 2019/4/15 16:05
@@ -71,6 +73,7 @@ public class NavigationController implements Application.ActivityLifecycleCallba
                 }
             }
             currentActivity.startActivity(intent);
+
         }
     }
 
@@ -105,6 +108,7 @@ public class NavigationController implements Application.ActivityLifecycleCallba
                 intent.putExtras(bundle);
             }
             currentActivity.startActivity(intent);
+
             if (isFinish) {
                 currentActivity.finish();
             }

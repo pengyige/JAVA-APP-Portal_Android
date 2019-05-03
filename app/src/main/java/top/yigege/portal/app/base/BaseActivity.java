@@ -37,19 +37,25 @@ public abstract class BaseActivity extends AppCompatActivity {
         tintManager = SystemBar.setSystemBar(this, R.color.colorPrimary);
         //维护所有activity
         PortalApplication.getApp().addActivity(this);
+
+
+
+
+
+        //设置布局
+        setContentView(initContentView());
         ButterKnife.bind(this);
         this.mContext = this;
         Bundle bundle = getIntent().getExtras();
 
 
-        //设置布局
-        setContentView(initContentView());
+
         //初始化参数
         initParms(bundle,savedInstanceState);
         //初始化数据
         initData();
         //初始化监听
-        initData();
+        initListener();
 
         setRoot(true);
 

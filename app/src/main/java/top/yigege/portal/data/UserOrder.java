@@ -2,7 +2,7 @@ package top.yigege.portal.data;
 
 import java.util.Date;
 
-import org.apache.struts2.json.annotations.JSON;
+
 
 /**
  * 
